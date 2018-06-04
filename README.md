@@ -1,5 +1,5 @@
-# seattle-301d34
-*Class lecture repo for seattle-301d34. Lead Instructor: Allie Grampa, Assistant Instructor: Michelle Ferreirae*
+# seattle-301d35
+*Class lecture repo for seattle-301d35. Lead Instructor: Sam Hamm*
 
 <a id="top"></a>
 ## Code 301
