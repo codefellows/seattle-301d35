@@ -48,9 +48,7 @@
 
 `10-minute break`
 
-- Slides (this will be shared as a PDF in Slack)
-  1. SMACSS
-  2. RWD
+- Slides on responsive web design (this will be shared as a PDF in Slack)
 
 - Responsive design code demo: media queries FTW!
 
