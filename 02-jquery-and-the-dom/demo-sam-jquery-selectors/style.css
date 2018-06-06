@@ -1,0 +1,30 @@
+* {
+  padding: 2px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+button {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.form-element {
+  margin-bottom: 1em;
+}
+
+#jquery-stuff {
+  font-family: Courier, monospace;
+  background-color: #ccc;
+}
+
+#jquery-stuff ul {
+  list-style: none;
+}
+
+.codez {
+  color: red;
+  font-weight: bolder;
+}

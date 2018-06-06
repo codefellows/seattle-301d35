@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>jQuery and the DOM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>WELCOME TO A NEW WORLD OF DOM MANIPULATION</h1>
+  </header>
+
+  <main>
+
+    <section id="list-container">
+      <p>Look at this beautiful list. Look at it.</p>
+
+      <ul id="beautiful-list">
+        <li class="li-template" data-category="list-item">it has items</li>
+        <li>they are unordered</li>
+        <li>There are three items</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <section>
+      <form>
+        <div class="form-element">
+          <label for="textbox">Enter some text and hit the "Enter" key:</label>
+          <input type="text" name="textbox">
+        </div>
+        <div class="form-element">
+          <label for="my-checkbox">Check this box if you want the box to be checked:</label>
+          <input type="checkbox" name="my-checkbox">
+        </div>
+      </form>
+    </section>
+
+    <hr>
+
+    <button type="button" id="my-button">Click on this to see some fun jQuery stuff!</button>
+
+    <section id="jquery-stuff">
+      <h2>Here are some jQuery things to try in your console</h2>
+      <ul>
+        <li><span class="codez">$('li')</span> [Accesses all elements of a particular type]</li>
+        <li><span class="codez">$('.form-element')</span> [Accesses all elements of a particular class]</li>
+        <li><span class="codez">$('#beautiful-list')</span> [Accesses an element by ID]</li>
+        <li><span class="codez">$('#list-container li')</span> [Returns all &lt;li&gt;s anywhere inside the #list-container]</li>
+        <li><span class="codez">$('#list-container > p')</span> [returns any &lt;p&gt; that is a DIRECT child of #list-container]</li>
+        <li><span class="codez">$('input[name="textbox"]')</span> [Accesses all elements with a matching attribute value]</li>
+        <li><span class="codez">$('div[class="form-element"]')</span> [Accesses all elements with a matching attribute value]</li>
+        <li><span class="codez">$('input[name = "textbox"]').val()</span> [Get the value from an input]</li>
+        <li><span class="codez">$(":checked")</span> [See which checkboxes are checked]</li>
+        <li><span class="codez">$('h1').text()</span> ["Get" the text content a matching element]</li>
+        <li><span class="codez">$('li').text()</span> [Try a "getter" on a selection that matches multiple elements]</li>
+        <li><span class="codez">$('h1').text('Hey there all y\'all!!!')</span> ["Sets" the text content of a matching element]</li>
+        <li><span class="codez">$('#jquery-stuff ul').html()</span> [Retrieves the inner HTML of a selected element]</li>
+        <li><span class="codez">$('head').html()</span> [Retrieves the inner HTML of an element]</li>
+        <li><span class="codez">$('li').last().text()</span> [Gets the text value of the last &lt;li&gt;]</li>
+        <li data-category="Look at this data I stored in the HTML!!!"><span class="codez">$('li').last().data()</span> [Gets the value of the data-category attribute of the last &lt;li&gt;]</li>
+      </ul>
+    </section>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html
