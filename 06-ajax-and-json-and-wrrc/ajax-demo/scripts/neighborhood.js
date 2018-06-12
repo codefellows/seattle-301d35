@@ -13,11 +13,26 @@ Neighborhood.prototype.toHtml = function() {
 
 function handleShowNeighborhoods() {
   // $.getJSON('url').then(success-callback, fail-callback)
+  $.getJSON('data/neighborhoodData.json').then(
+    // SUCCESS CALLBACK
+    function(data) {
+      console.table(data);
+      // Create neighborhood instances
+      data.forEach(function(neighborhoodObject) {
+        neighborhoods.push(new Neighborhood(neighborhoodObject));
+      });
+      // Render the 'hoods to the DOM
+      neighborhoods.forEach(function(hood) {
+        // console.log(hood);
+        $('#neighborhoods').append(hood.toHtml());
+      })
 
-  // SUCCESS CALLBACK
-
-  // FAIL CALLBACK
-
+    },
+    // FAIL CALLBACK
+    function(err) {
+      console.log(err);
+    }
+  )
 }
 
 console.table('neighborhoods array', neighborhoods);
