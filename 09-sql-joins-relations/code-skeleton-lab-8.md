@@ -27,8 +27,8 @@ public/
   		Article()
   		Article.all = []
   		Article.prototype.toHtml()
-  		Article.loadAll()
-  		Article.fetchAll()
+  		Article.loadAll() // sort raw data and run raw data thru Article() to make instances
+  		Article.fetchAll() // retreives the raw data from the DB
   		Article.truncateTable // makes AJAX call to a DELETE route to truncate
   		Article.prototype.insertRecord() // AJAX call to the POST route
   		Article.prototype.deleteRecord() // AJAX call to other DELETE route
