@@ -11,13 +11,34 @@
 - [IaaS, PaaS, SaaS (Explained and Compared)](https://apprenda.com/library/paas/iaas-paas-saas-explained-compared/)
 
 ## Daily Plan
-- Announcements
-- Code Review
-- New Material
-- Code Demos
-- Lab Preview
+<!-- Below is a template. Please delete, change, update as you see fit... -->
+
+*Today, we will work through the following list. We will let things be a little open-ended, without scheduling breaks in particular places, and just take breaks when we feel like we need them. There will be times today where lecture will seem more like lab time, and moments where we need to pause and get everyone up to speed before we move on. The goal is to finish this morning, but, if we need an afternoon session, that is OK. It's more important to start of solidly than start off quickly.*
+
+**Slides: Deployments**
+
+**Slides: Heroku**
+
+**Discussion: Environments**
+
+**Overview of book app project architecture**
+
+**Look at book app wireframes**
+
+**Review of the book app README**
+
+**Start building the book app!**
 
 ## Learning Objectives
+<!--
+ABCD:
+  Audience: Program participants
+  Behavior: Expected learning/behavior changes/results
+  Condition:
+    Circumstances that lead to change/result
+    When change/result are expected to occur
+  Degree: How much change occurs (%) for how many participants (#)
+-->
 
 - Be able to push a dev site to production, so the world can see it.
 - Understand the difference between a static page and a dynamically generated app page.
