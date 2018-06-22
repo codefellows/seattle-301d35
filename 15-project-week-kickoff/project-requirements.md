@@ -32,4 +32,4 @@ Your grade is based on your individual effort and your project's technical merit
   * Has at least 3 interlinked "pages" with a clear navigation
   * Has at least two pages that accept and process user input
   * State is persisted between page reloads
-  * Deployed live on the Internet with a meaningfully-named URL, either through a custom-named Heroku (or similar service) application or, ideally, through purchasing and connecting a domain (as of April 2018, Namecheap.com offers a wide variety of domain names for $0.88).
+  * Client and server components deployed separately, live on the Internet, with a meaningfully-named URL, either through a custom-named Heroku (or similar service) application or, ideally, through purchasing and connecting a domain (as of April 2018, Namecheap.com offers a wide variety of domain names for $0.88).
